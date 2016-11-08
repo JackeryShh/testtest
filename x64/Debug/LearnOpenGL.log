@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/11/6 15:56:13。
+     1>项目“C:\Users\Thinkpad\Desktop\LearnOpenGL\LearnOpenGL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt source\main.cpp
+         main.cpp
+     1>source\main.cpp(327): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>source\main.cpp(289): warning C4101: “height”: 未引用的局部变量
+     1>source\main.cpp(289): warning C4101: “width”: 未引用的局部变量
+     1>source\main.cpp(478): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>source\main.cpp(479): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>source\main.cpp(483): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>source\main.cpp(484): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>source\main.cpp(486): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>source\main.cpp(487): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>source\main.cpp(494): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Thinkpad\Desktop\LearnOpenGL\x64\Debug\LearnOpenGL.exe" /INCREMENTAL /NOLOGO opengl32.lib glew32d.lib glfw3.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Thinkpad\Desktop\LearnOpenGL\x64\Debug\LearnOpenGL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Thinkpad\Desktop\LearnOpenGL\x64\Debug\LearnOpenGL.lib" /MACHINE:X64 /NODEFAULTLIB:LIBCMT.lib x64\Debug\Camera.obj
+         x64\Debug\LoadTexture.obj
+         x64\Debug\main2.obj
+         x64\Debug\main.obj
+         x64\Debug\Shader.obj
+         LearnOpenGL.vcxproj -> C:\Users\Thinkpad\Desktop\LearnOpenGL\x64\Debug\LearnOpenGL.exe
+     1>已完成生成项目“C:\Users\Thinkpad\Desktop\LearnOpenGL\LearnOpenGL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.27

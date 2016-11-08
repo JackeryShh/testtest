@@ -1,0 +1,17 @@
+﻿生成启动时间为 2016/10/27 10:01:08。
+     1>项目“C:\Users\Thinkpad\Desktop\LearnOpenGL\LearnOpenGL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt source\LoadTexture.cpp source\main2.cpp source\main.cpp source\readme.txt source\Shader.cpp
+         LoadTexture.cpp
+     1>source\LoadTexture.cpp(1): fatal error C1083: 无法打开包括文件: “LoadTexture.h”: No such file or directory
+         main2.cpp
+         main.cpp
+     1>source\main.cpp(3): fatal error C1083: 无法打开包括文件: “GL/glew.h”: No such file or directory
+         readme.txt
+         Shader.cpp
+     1>source\Shader.cpp(2): fatal error C1083: 无法打开包括文件: “Shader.h”: No such file or directory
+     1>已完成生成项目“C:\Users\Thinkpad\Desktop\LearnOpenGL\LearnOpenGL.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.71

@@ -1,0 +1,14 @@
+纹理环绕方式，四种
+1. GL_REPEAT 超过1.0的部分，采用纹理重复处理
+2. GL_MIRROR_REPEAT 超过1.0的部分，采用纹理镜像重复处理
+3  GL_CLAMP_TO_EDGE  超过1.0的部分，采用边缘的颜色，产生拉伸的效果
+4. GL_CLAMP_TO_BORDER 超过1.0的部分，用户自己定义它的颜色
+
+对于前三种方式，可以通过分别对纹理S(水平)、T(垂直)方向进行设置，设置函数为glTexParameteri函数进行设置，例如
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);//S方向纹理重复
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);//T 方向镜像的方式重复
+对于第四种方式，需要用户自定义颜色，使用方式如下：
+    float borderColor[] = { 1.0f, 1.0f, 0.0f, 1.0f };
+    glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, borderColor);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_BORDER);//
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_BORDER);//
